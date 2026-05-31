@@ -208,7 +208,7 @@ async def worker():
 
 
 async def startup():
-    print(Fore.MAGENTA + f"\nCamera Scanner v{VERSION} - Stable" + Style.RESET_ALL)
+    print(Fore.WHITE + f"\nCamFIND v{VERSION} - Stable!" + Style.RESET_ALL)
     async with aiohttp.ClientSession() as session:
         await check_for_updates(session)
     print(Fore.GREEN + f"Loaded {len(USER_AGENTS)} User-Agents | Threads: {THREADS}\n" + Style.RESET_ALL)
