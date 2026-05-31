@@ -14,8 +14,8 @@ warnings.filterwarnings("ignore", category=RuntimeWarning)
 VERSION = "5.5-stable"
 REPO_RAW_BASE = "https://raw.githubusercontent.com/nicopancakes/CamFIND/main/config"
 
-WITH_SCREENSHOT_WEBHOOK = "https://discord.com/api/webhooks/..."
-NO_SCREENSHOT_WEBHOOK = "https://discord.com/api/webhooks/..."
+WITH_SCREENSHOT_WEBHOOK = "https://discord.com/api/webhooks/" # <-- Webhook URL
+NO_SCREENSHOT_WEBHOOK = "https://discord.com/api/webhooks/" # <-- Webhook URL
 # FAQ for Thread Config, Port Worker Config, Base Delay Config:
 # CamFIND\docs\help.html
 
