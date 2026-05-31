@@ -11,17 +11,13 @@ import socket
 from concurrent.futures import ThreadPoolExecutor
 
 warnings.filterwarnings("ignore", category=RuntimeWarning)
-
-# ==================== CONFIG ====================
 VERSION = "5.5-stable"
-
-# ←←← CHANGE THIS TO YOUR REPO
-REPO_RAW_BASE = "https://raw.githubusercontent.com/YOUR_USERNAME/cam-scanner/main/config"
+REPO_RAW_BASE = "https://raw.githubusercontent.com/nicopancakes/CamFIND/main/config"
 
 WITH_SCREENSHOT_WEBHOOK = "https://discord.com/api/webhooks/..."
 NO_SCREENSHOT_WEBHOOK = "https://discord.com/api/webhooks/..."
 # FAQ for Thread Config, Port Worker Config, Base Delay Config:
-# https://github.com/nicopancakes/CamFIND/
+# https://nicopancakes.github.io/CamFIND/docs/help
 
 THREADS = 50 # <--- Important: ONLY INCREASE IF: Stable Wired Ethernet/5GHz WiFi, OR Not Seeing Increased Timeouts/Packet Loss.
 PORT_WORKERS = 14 
