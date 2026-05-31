@@ -17,7 +17,7 @@ REPO_RAW_BASE = "https://raw.githubusercontent.com/nicopancakes/CamFIND/main/con
 WITH_SCREENSHOT_WEBHOOK = "https://discord.com/api/webhooks/..."
 NO_SCREENSHOT_WEBHOOK = "https://discord.com/api/webhooks/..."
 # FAQ for Thread Config, Port Worker Config, Base Delay Config:
-# https://nicopancakes.github.io/CamFIND/docs/help
+# CamFIND\docs\help.html
 
 THREADS = 50 # <--- Important: ONLY INCREASE IF: Stable Wired Ethernet/5GHz WiFi, OR Not Seeing Increased Timeouts/Packet Loss.
 PORT_WORKERS = 14 
