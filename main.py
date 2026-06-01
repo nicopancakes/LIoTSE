@@ -12,7 +12,11 @@ from concurrent.futures import ThreadPoolExecutor
 
 warnings.filterwarnings("ignore", category=RuntimeWarning)
 VERSION = "5.5-stable"
-REPO_RAW_BASE = "https://raw.githubusercontent.com/nicopancakes/CamFIND/main/config"
+REPO_RAW_BASE = "https://raw.githubusercontent.com/nicopancakes/CamFIND/refs/heads/main/config/blacklist.json"
+REPO_RAW_BASE = "https://raw.githubusercontent.com/nicopancakes/CamFIND/refs/heads/main/config/campositive.json"
+REPO_RAW_BASE = "https://raw.githubusercontent.com/nicopancakes/CamFIND/refs/heads/main/config/keywords.json"
+REPO_RAW_BASE = "https://raw.githubusercontent.com/nicopancakes/CamFIND/refs/heads/main/config/snapshotpath.json"
+REPO_RAW_BASE = "https://raw.githubusercontent.com/nicopancakes/CamFIND/refs/heads/main/config/useragents.json"
 
 WITH_SCREENSHOT_WEBHOOK = "https://discord.com/api/webhooks/" # <-- Webhook URL
 NO_SCREENSHOT_WEBHOOK = "https://discord.com/api/webhooks/" # <-- Webhook URL
