@@ -2,4 +2,4 @@
 Local IoT Search Engine (LIoTSE) is a Customizable Search Engine for Personal Computers.
 
 > [!TIP]
-> LIoTSE Current Version as of 6/22/26 v6.0
+> LIoTSE Current Version as of 6/22/26 v6.0, LIoTSE Best Used with WARP (1.1.1.1)
