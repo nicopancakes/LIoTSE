@@ -1,2 +1,5 @@
-# CamFIND
-CamFIND Is an Open-Source, Open Camera Finder Compatible with Discord Webhooks. Use to Find AXIS Cameras, and More!
+# Local IoT Search Engine
+Local IoT Search Engine (LIoTSE) is a Customizable Search Engine for Personal Computers.
+
+> [!TIP]
+> LIoTSE Current Version as of 6/22/26 v6.0
